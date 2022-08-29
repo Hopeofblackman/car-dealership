@@ -1,0 +1,64 @@
+.navbar {
+    margin-bottom: 40px;
+}
+
+.top-row{
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+.middle-row{
+    margin-bottom: 40px;
+}
+
+.bottom-row{
+    margin-bottom: 100px;
+}
+
+.body {
+    background-color: pink;
+}
+
+
+/* submitform */
+
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    
+
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+}
+
+input,
+select,
+textarea{
+    padding: 1.4rem;
+    background:transparent;
+    border: 1px solid black;
+
+}
+
+textarea {
+    height: 6rem;
+}
+
+buttom {
+    width: 8rem;
+    padding: 1.4rem;
+    cursor: pointer;
+    background: #673de6;
+    color: white;
+}
